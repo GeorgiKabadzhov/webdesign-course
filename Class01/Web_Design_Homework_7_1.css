@@ -1,0 +1,40 @@
+* {
+	color: #FFFFFF;
+}
+
+body {
+	background:#C0C0C0;
+	background-attachment:fixed;
+}
+
+#head {
+	background:#000000;
+	color:#00FF00;
+	text-align:center;
+	height:inherit;
+}
+
+#foot {
+	background:#006600;
+	color:#FF0000;
+	text-align:center;
+	height:inherit;
+}
+
+#cont {
+	background:#CC3333;
+	text-align:center;
+	width:30%;
+	color:#999999;
+	float:right;
+	height:inherit;
+}
+
+#side {
+	background:#003333;
+	text-align:center;
+	width:70%;
+	color:#FFFFFF;
+	float:left;
+	height:inherit;
+}

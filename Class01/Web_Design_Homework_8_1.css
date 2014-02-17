@@ -1,0 +1,64 @@
+body {
+	font-family: Arial, Tahoma, "Times New Roman";
+	background: #66CCFF
+}
+
+nav ul li {
+		
+	float: left;
+}
+
+nav ul li:hover {
+	background: -moz-linear-gradient(left, blue, white);
+
+	}
+	
+
+nav ul li:hover a {
+color: #fff;
+background: #5f6975
+}
+
+nav ul li a {
+		display: block; 
+		padding: 25px 40px;
+		color: #757575;
+		text-decoration: none;
+	
+}
+
+nav ul ul {
+	
+	display: none;
+	background: #5f6975; 
+	border-radius: 0px; 
+	padding: 0;
+	position: relative; 
+	top: 10%;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}	
+
+nav ul ul li {
+	float: none; 
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
+	position: relative;
+	list-style-type:none;
+}
+
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #fff;
+}	
+
+nav ul ul li a:hover {
+	background: #4b545f;
+}
+
+
+nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}
